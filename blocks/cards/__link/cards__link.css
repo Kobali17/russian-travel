@@ -1,0 +1,16 @@
+.cards__link {
+    max-width: 456px;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    align-self: end;
+}
+
+.cards__link:hover {
+    opacity: 60%;
+}
+

@@ -1,0 +1,19 @@
+.poll__list {
+    width: 690px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 32px 0 92px;
+    text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+    .poll__list {
+        margin: 32px 0 64px;
+        width: 288px;
+        height: 90px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}

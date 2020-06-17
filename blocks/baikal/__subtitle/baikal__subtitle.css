@@ -1,0 +1,29 @@
+.baikal__subtitle {
+    margin: 32px auto 0;
+    width: 360px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .baikal__subtitle {
+        width: 360px;
+        height: 66px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .baikal__subtitle {
+        width: 288px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

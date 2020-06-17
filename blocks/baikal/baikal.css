@@ -1,0 +1,32 @@
+@import url(../baikal/__title/baikal__title.css);
+@import url(../baikal/__subtitle/baikal__subtitle.css);
+@import url(../baikal/__link/baikal__link.css);
+
+.baikal {
+    min-height: 720px;
+    margin: 92px auto 92px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .baikal {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .baikal {
+        margin: 88px auto 88px;
+        min-height: 400px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .baikal {
+        margin: 16px auto 64px;
+        min-height: 200px;
+
+    }
+}

@@ -1,0 +1,28 @@
+.baikal__link {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../images/__background.jpg");
+    object-fit: cover;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.baikal__link:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(42, 44, 47);
+    opacity: 20%;
+
+}
+
+.baikal__link:hover::after {
+    opacity: 90%;
+    transition: opacity 0.5s ease-in;
+
+}

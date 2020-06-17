@@ -1,0 +1,24 @@
+.cards__context {
+    margin: 0;
+    padding-bottom: 24px;
+    max-width: 456px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.cards__context:last-child {
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .cards__context {
+        margin-top: 32px;
+        max-width: 320px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}

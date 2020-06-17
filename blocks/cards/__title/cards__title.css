@@ -1,0 +1,22 @@
+.cards__title {
+    margin: 0;
+    max-width: 460px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+    .cards__title {
+        margin: 0 0 32px;
+        padding-left: 16px;
+        max-width: 288px;
+        height: 35px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+}

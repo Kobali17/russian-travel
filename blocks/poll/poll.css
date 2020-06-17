@@ -1,0 +1,12 @@
+@import url(../poll/__title/poll__title.css);
+@import url(../poll/__subtitle/poll__subtitle.css);
+@import url(../poll/__list/poll__list.css);
+
+.poll {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,15 @@
+.cards__item {
+    display: grid;
+    grid-gap: 48px 32px;
+    grid-template-columns:440px 456px;
+    grid-template-rows: 152px 440px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 320px) {
+    .cards__item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+}
