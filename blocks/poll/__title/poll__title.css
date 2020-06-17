@@ -1,7 +1,6 @@
 .poll__title {
     margin: 114px 0 40px;
-    width: 720px;
-    height: 58px;
+    max-width: 720px;
     font-style: normal;
     font-weight: bold;
     font-size: 54px;
@@ -12,8 +11,7 @@
 @media screen and (max-width: 320px) {
     .poll__title {
         margin: 64px 0 40px;
-        width: 288px;
-        height: 70px;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }

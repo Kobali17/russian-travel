@@ -1,5 +1,5 @@
 .poll__list {
-    width: 690px;
+    max-width: 690px;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -11,8 +11,7 @@
 @media screen and (max-width: 320px) {
     .poll__list {
         margin: 32px 0 64px;
-        width: 288px;
-        height: 90px;
+        max-width: 288px;
         font-weight: bold;
         font-size: 12px;
     }

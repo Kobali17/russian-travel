@@ -4,10 +4,8 @@
 @import url(../lead/__img/lead__img.css);
 
 .lead {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    overflow: hidden;
-
+    width: 100%;
 }

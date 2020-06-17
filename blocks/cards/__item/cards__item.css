@@ -1,8 +1,7 @@
 .cards__item {
     display: grid;
     grid-gap: 48px 32px;
-    grid-template-columns:440px 456px;
-    grid-template-rows: 152px 440px;
+    grid-template-columns: repeat(2, minmax(325px, 456px));
     margin-bottom: 80px;
 }
 
