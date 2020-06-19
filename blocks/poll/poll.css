@@ -1,6 +1,7 @@
 @import url(../poll/__title/poll__title.css);
 @import url(../poll/__subtitle/poll__subtitle.css);
 @import url(../poll/__list/poll__list.css);
+@import url(../poll/__list/_normal/poll__list_normal.css);
 
 .poll {
     width: 100%;

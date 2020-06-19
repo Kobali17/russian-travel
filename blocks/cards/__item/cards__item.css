@@ -4,6 +4,7 @@
     grid-template-columns: repeat(2, minmax(325px, 456px));
     margin-bottom: 80px;
 }
+
 @media screen and (max-width: 640px) {
     .cards__item {
         display: flex;

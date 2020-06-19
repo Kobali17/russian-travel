@@ -9,6 +9,7 @@
     color: #FFFFFF;
     z-index: 2;
 }
+
 @media screen and (max-width: 640px) {
     .baikal__title {
         max-width: 400px;
@@ -16,6 +17,7 @@
         line-height: 1.2;
     }
 }
+
 @media screen and (max-width: 320px) {
     .baikal__title {
         max-width: 288px;
