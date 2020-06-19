@@ -12,8 +12,7 @@
 
 @media screen and (max-width: 768px) {
     .baikal__subtitle {
-        width: 360px;
-        height: 66px;
+        max-width: 360px;
         font-size: 18px;
         line-height: 22px;
     }
@@ -21,8 +20,7 @@
 
 @media screen and (max-width: 320px) {
     .baikal__subtitle {
-        width: 288px;
-        height: 48px;
+        max-width: 288px;
         font-size: 14px;
         line-height: 16px;
     }

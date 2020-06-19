@@ -2,6 +2,13 @@
     align-self: end;
 }
 
+@media screen and (max-width: 640px) {
+    .cards__web {
+        display: none;
+    }
+
+}
+
 @media screen and (max-width: 320px) {
     .cards__web {
         display: none;

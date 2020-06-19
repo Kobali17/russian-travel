@@ -1,6 +1,6 @@
 .baikal__title {
     margin: 0 auto 0;
-    width: 560px;
+    max-width: 560px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -9,11 +9,16 @@
     color: #FFFFFF;
     z-index: 2;
 }
-
+@media screen and (max-width: 640px) {
+    .baikal__title {
+        max-width: 400px;
+        font-size: 60px;
+        line-height: 1.2;
+    }
+}
 @media screen and (max-width: 320px) {
     .baikal__title {
-        width: 288px;
-        height: 70px;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }

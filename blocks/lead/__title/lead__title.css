@@ -4,12 +4,11 @@
     font-size: 96px;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     color: #ffffff;
     line-height: 100px;
 }
-
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 640px) {
     .lead__title {
         margin: 48px auto 0;
         max-width: 400px;
@@ -18,7 +17,6 @@
     }
 
 }
-
 @media screen and (max-width: 320px) {
     .lead__title {
         margin: 48px auto 0;
