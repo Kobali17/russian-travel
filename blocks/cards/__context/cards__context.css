@@ -12,9 +12,10 @@
 .cards__context:last-child {
     padding: 0;
 }
+
 @media screen and (max-width: 768px) {
     .cards__context {
-        margin-left:24px ;
+        margin-left: 24px;
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;

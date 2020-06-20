@@ -8,6 +8,7 @@
     color: #FFFFFF;
     align-self: end;
 }
+
 @media screen and (max-width: 768px) {
     .cards__title {
         max-width: 340px;
