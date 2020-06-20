@@ -3,7 +3,7 @@
     padding-bottom: 24px;
     max-width: 456px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
@@ -11,6 +11,15 @@
 
 .cards__context:last-child {
     padding: 0;
+}
+@media screen and (max-width: 768px) {
+    .cards__context {
+        margin-left:24px ;
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {

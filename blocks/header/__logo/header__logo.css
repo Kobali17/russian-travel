@@ -2,6 +2,10 @@
     width: 176px;
     height: 52px;
     margin-top: 28px;
+    background-image: url("../../../images/__logo.svg");
+    border: none;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and(max-height: 320px) {

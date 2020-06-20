@@ -1,7 +1,8 @@
-@import url(../poll/__title/poll__title.css);
-@import url(../poll/__subtitle/poll__subtitle.css);
-@import url(../poll/__list/poll__list.css);
-@import url(../poll/__list/_normal/poll__list_normal.css);
+@import url(__title/poll__title.css);
+@import url(__subtitle/poll__subtitle.css);
+@import url(__list/poll__list.css);
+@import url(__item/poll__item.css);
+@import url(__norm-item/poll__norm-item.css);
 
 .poll {
     width: 100%;

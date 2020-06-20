@@ -1,18 +1,11 @@
 .poll__list {
-    max-width: 690px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
+    padding: 0;
+    list-style: none;
     margin: 32px 0 92px;
-    text-align: left;
 }
-
 @media screen and (max-width: 320px) {
     .poll__list {
         margin: 32px 0 64px;
         max-width: 288px;
-        font-weight: bold;
-        font-size: 12px;
     }
 }

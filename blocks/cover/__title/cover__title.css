@@ -1,4 +1,4 @@
-.baikal__title {
+.cover__title {
     margin: 0 auto 0;
     max-width: 560px;
     font-style: normal;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    .baikal__title {
+    .cover__title {
         max-width: 400px;
         font-size: 60px;
         line-height: 1.2;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .baikal__title {
+    .cover__title {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;

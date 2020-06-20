@@ -2,11 +2,19 @@
     margin: 0;
     max-width: 460px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
     align-self: end;
+}
+@media screen and (max-width: 768px) {
+    .cards__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {

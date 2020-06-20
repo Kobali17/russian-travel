@@ -2,6 +2,7 @@
     margin-top: 28px;
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 @media screen and (max-width: 320px) {
