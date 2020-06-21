@@ -1,6 +1,6 @@
-@import url(/russian-travel/blocks/cover/__title/cover__title.css);
-@import url(/russian-travel/blocks/cover/__subtitle/cover__subtitle.css);
-@import url(/russian-travel/blocks/cover/__link/cover__link.css);
+@import url(__title/cover__title.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__link/cover__link.css);
 
 .cover {
     min-height: 740px;
