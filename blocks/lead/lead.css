@@ -7,5 +7,13 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    width: 100%;
+    max-width: 1184px;
+    padding: 0 48px 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        padding: 0;
+    }
 }

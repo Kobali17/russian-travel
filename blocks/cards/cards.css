@@ -10,14 +10,9 @@
 .cards {
     max-width: 984px;
     list-style: none;
-    padding: 0;
+    padding: 0 48px 0;
 }
-@media screen and (max-width: 1280px) {
-    .cards {
-        padding: 0 48px 0;
 
-    }
-}
 @media screen and (max-width: 768px) {
     .cards {
         padding: 0 24px 0;
@@ -27,6 +22,12 @@
 @media screen and (max-width: 320px) {
     .cards {
         margin: 64px auto 64px;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .cards {
+        padding: 0;
 
     }
 }
