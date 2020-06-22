@@ -4,23 +4,26 @@
 
 .cover {
     min-height: 740px;
-    margin: 92px auto 92px;
+    margin: 92px 48px 92px;
     display: flex;
     justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
+        margin: 92px 0 92px;
         min-height: 640px;
         max-width: 1024px;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 768px;
-        margin: 88px auto 88px;
+        margin: 88px 0 88px;
         min-height: 480px;
+        padding: 0;
 
     }
 }
@@ -28,8 +31,9 @@
 @media screen and (max-width: 320px) {
     .cover {
         max-width: 320px;
-        margin: 16px auto 64px;
+        margin: 16px 0 64px;
         min-height: 200px;
+        padding: 0;
 
     }
 }
