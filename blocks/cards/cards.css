@@ -1,10 +1,11 @@
-@import url(./__image/cards__image.css);
-@import url(./__item/cards__item.css);
-@import url(./__link/cards__link.css);
-@import url(./__title/cards__title.css);
-@import url(./__url/cards__url.css);
-@import url(./__context/cards__context.css);
-@import url(./__web/cards__web.css);
+@import url(__image/cards__image.css);
+@import url(__item/cards__item.css);
+@import url(__link/cards__link.css);
+@import url(__title/cards__title.css);
+@import url(__url/cards__url.css);
+@import url(__context/cards__context.css);
+@import url(__web/cards__web.css);
+@import url(__text/cards__text.css);
 
 .cards {
     max-width: 984px;
@@ -15,5 +16,6 @@
 @media screen and (max-width: 320px) {
     .cards {
         margin: 64px auto 64px;
+
     }
 }

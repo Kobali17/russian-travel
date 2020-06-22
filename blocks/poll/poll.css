@@ -6,7 +6,8 @@
 
 .poll {
     padding: 0 16px 0;
-    width: 100%;
+    box-sizing: border-box;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 320px) {
     .cards__text {
+        box-sizing: border-box;
         padding: 0 16px 0;
         margin: 32px 0 0;
     }
