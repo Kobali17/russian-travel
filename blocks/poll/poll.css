@@ -5,10 +5,10 @@
 @import url(__norm-item/poll__norm-item.css);
 
 .poll {
+    padding: 0 16px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     color: #FFFFFF;
 }
