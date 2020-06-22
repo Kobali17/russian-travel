@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 768px) {
     .cards__context {
-        margin-left: 24px;
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
