@@ -5,6 +5,11 @@
     margin-bottom: 80px;
 }
 
+@media screen and (max-width: 720px) {
+    .cards__item {
+        grid-gap: 30px 20px;
+    }
+}
 @media screen and (max-width: 698px) {
     .cards__item {
         display: flex;

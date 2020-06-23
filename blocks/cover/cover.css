@@ -3,8 +3,10 @@
 @import url(__link/cover__link.css);
 
 .cover {
+    max-width: 1184px;
     min-height: 740px;
-    margin: 92px 48px 92px;
+    margin: 92px 0 92px;
+    padding: 0 48px 0;
     display: flex;
     justify-content: center;
 }

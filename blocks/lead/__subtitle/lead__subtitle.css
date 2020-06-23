@@ -9,15 +9,9 @@
     font-style: normal;
 }
 
-@media screen and (max-width: 768px) {
-    .lead__subtitle {
-        padding: 0 24px 0;
 
-    }
 
-}
-
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 680px) {
     .lead__subtitle {
         max-width: 320px;
         font-size: 20px;
@@ -26,10 +20,9 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 355px) {
     .lead__subtitle {
         margin: 16px auto 40px;
-        padding: 0 16px 0;
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
