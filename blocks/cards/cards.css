@@ -20,12 +20,14 @@
 
     }
 }
+
 @media screen and (max-width: 320px) {
     .cards {
         margin: 64px auto 64px;
 
     }
 }
+
 @media screen and (max-width: 320px) {
     .cards {
         padding: 0;

@@ -6,13 +6,14 @@
 
 .poll {
     padding: 0 48px 0;
-    max-width:984px;
+    max-width: 984px;
     margin: 0 auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF;
 }
+
 @media screen and (max-width: 768px) {
     .poll {
         padding: 0 24px 0;
