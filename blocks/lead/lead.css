@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    max-width: 1184px;
+    margin: 0 auto 0;
+    max-width: 984px;
     padding: 0 48px 0;
 
 }
@@ -15,10 +16,5 @@
 @media screen and (max-width: 768px) {
     .lead {
         padding: 0;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .lead {
-
     }
 }

@@ -9,6 +9,7 @@
 
 .cards {
     max-width: 984px;
+    margin: 0 auto 0;
     list-style: none;
     padding: 0 48px 0;
 }
