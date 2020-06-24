@@ -1,9 +1,14 @@
 .poll__list {
     padding: 0;
+    max-width: 690px;
     list-style: none;
     margin: 32px 0 92px;
 }
-
+@media screen and (max-width: 768px) {
+    .poll__list {
+        max-width: 720px;
+    }
+}
 @media screen and (max-width: 320px) {
     .poll__list {
         margin: 32px 0 64px;
